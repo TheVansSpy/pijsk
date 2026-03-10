@@ -131,3 +131,26 @@ a{
             height: 1rem;
             font-family: monospace;
         }
+	#top-zone{
+		position: fixed;
+		width: 100vw;
+		height:32px;
+		background-image: url("../resources/bitmaps/bad-gradient.png");
+		z-index:10;
+	}
+	#touch-zones{
+		position: fixed;
+		z-index:9;
+		width:100vw;
+		height:100vh;
+		display:flex;
+		background-color: #01010177;
+	}
+	#touch-left{
+		width:50%;
+		background-color:#FF010177;
+	}
+	#touch-right{
+		width:50%;
+		background-color:#0101FF77;
+	}
